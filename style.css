@@ -1,0 +1,900 @@
+/*============RESET=============*/
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	border:none;
+	outline: none;
+	font-weight: 300;
+	box-sizing: border-box;
+	font-family: 'Oswald', sans-serif;
+	
+}
+body{
+	background-color: #f5f5f5;
+}
+a{
+	text-orientation: none;
+}
+ul{
+	list-style: none;
+}
+img{
+	max-width: 100%;
+}
+.clear {
+	clear: both;
+}
+
+/*=========== CONTAINER ==========*/
+.container {
+	width: 100%;
+ 	float: left; 
+ 	padding: 3% 4%; 
+ 	text-align: center;
+ }
+/*CABECALHO*/
+.cabecalho{
+	width:100%;
+	height: 90px;
+	float:left;
+	padding: 1% 3%;
+	border-bottom-style: solid;
+	border-color: #008000;
+	margin-bottom: 11px;
+}
+#faixa-topo{
+	position: relative;
+	width: 100%;
+	height: 23px;
+	float:left;
+	background-color: green;
+	padding: 0;
+	font-size:0 
+}
+
+.logo{
+	position: relative;
+	width: 150px;
+	height: 100px;
+	float:left;
+	margin: 0;
+	top:0;
+	left:3%;
+	background: url(../img/camada.png) center center/100px no-repeat;
+	font-size:0 
+
+}
+/*MENU*/
+.btn-menu{
+	position: relative;
+	width:80px;
+	height: 80px;
+	margin-top: 1px;
+	float: right;
+	text-align: center;
+	color: #fff; 
+	border-radius: 60px;
+	cursor:pointer;
+	background: linear-gradient(to right,#A0C225,#347451);
+}
+.menu{
+	position: relative;
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0,0,0,0.9);
+	top: 0;
+	left: 0;
+}
+.btn-close{
+	position: relative;
+	font-size: 1.5em;
+	color:#fff;
+	float: right;
+	cursor: pointer;
+	margin: 2% 3% 0 0;
+
+}
+.menu ul{
+	position: relative;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.menu li{
+	padding: 1.5%;
+}
+.menu li a{
+	font-size: 2em;
+	color: #fff;
+	padding: 1.5% 3%;
+}
+.menu li a:hover {
+	border:1px solid white;
+	background: green;
+	border-radius: 9px;
+}
+/*BANNER*/
+.banner{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 0;
+}
+/*SERVICOS*/
+.servico {
+	width: 29%; 
+	float: left;
+	margin-top: 10%;
+	margin-right: 2%;
+	margin-left: 2.32%;
+	margin-bottom: 15%;
+	}
+.servico img{
+	margin-top: 4.5%;
+}
+
+.inner > a, h4, p{
+	list-style-type: none;
+	text-align: center;
+	color: black;
+	font-size: 0.75em;
+}
+.inner p{
+	margin-bottom: 121px;
+}
+
+a:link {
+	text-decoration: none;
+}
+.clear2{
+	font-size: 0;
+}
+/*RODAPÉ*/
+
+.bg-gradient {
+	background: linear-gradient(to right,#009236,#347451,#009236);
+}
+
+.social-icons a {
+	font-size: 1.5em; 
+	color: rgba(255,251,255,0.7); 
+	margin-right: 3%;
+}
+.social-icons a:last-child {
+	margin-right: 0;
+}
+.social-icons a:hover {
+	color: rgb(255,255,255) margin-top:0.5%;
+}
+#email{
+	font-size: 0.8em;
+	color: rgba(255, 255, 255, 0.7); margin-top:0.5%;
+}
+.copyright {
+	font-size: 0.8em;
+	color: rgba(255, 255, 255, 0.7); margin-top:1%;
+}
+
+/*BIBLIOTECA */
+.caixa-link{
+	background: url(../img/fundoGrade.png) no-repeat center top fixed; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    bottom:0;
+}
+#TitleBiblioteca{
+	color: white;
+	font-size: 2em;
+	text-align: center;
+}
+
+#imagem-link img{
+	width: 45%;
+	left: 40px;
+	margin-top: 4%;
+	margin-right: 4.1px;
+	margin-left: 10px;
+}
+#imagem-link-2 img{
+	width: 45%;
+	margin-top: 1%;
+	margin-right: 4.1px;
+	margin-left: 10px;
+}
+#imagem-link-3 img{
+	width: 45%;
+	margin-top: 1%;
+	margin-right: 4.1px;
+	margin-left: 10px;
+}
+#imagem-link-4 img{
+	width: 45%;
+	margin-top: 1%;
+	margin-right: 4.1px;
+	margin-left: 10px;
+}
+
+/* ABA QUEM SOMOS */
+
+#caixa {
+	text-align: center;
+	clear: both;
+	border-style: double;
+	background: white;
+	width: 97%;
+	height: 100%;
+	padding: 4px;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 200px;
+	margin-bottom: 30%;
+	display: block;
+}
+
+
+/* ABA PUBLICAÇÕES */
+
+.publicacao {
+	width: 97%; 
+	float: center;
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-bottom: 1%;
+	border-style: outset;
+	padding: 1.4em;
+	}
+
+.interno > a > h2{
+	list-style-type: none;
+	text-align: center;
+	color: purple;
+	font-size: 1.5em;
+}
+.clique-aqui {
+	float: right;
+	font-size: 1.2em;
+}
+
+/*Mobile fist*/
+@media screen and (min-width: 366px){
+.logo{
+	position: relative;
+	width: 100px;
+	height: 75px;
+	float:left;
+	margin: 0;
+	top:0;
+	left:5%;
+	font-size:0 
+
+}
+.btn {
+	font-size: 2em;
+}
+.btn-menu{
+	margin-top: -1px;
+}
+
+/*BIBLIOTECA*/
+#TitleBiblioteca{
+	color: white;
+	font-size: 2em;
+	text-align: center;
+}
+#imagem-link img{
+	width: 45%;
+	left: 40px;
+	margin-top: 4%;
+	margin-right: 4.1px;
+	margin-left: 10px;
+}
+#imagem-link-2 img{
+	width: 45%;
+	margin-top: 1%;
+	margin-right: 4.1px;
+	margin-left: 10px;
+}
+#imagem-link-3 img{
+	width: 45%;
+	margin-top: 1%;
+	margin-right: 4.1px;
+	margin-left: 10px;
+}
+#imagem-link-4 img{
+	width: 45%;
+	margin-top: 1%;
+	margin-right: 4.1px;
+	margin-left: 10px;
+	margin-bottom: 60px;
+}
+
+}
+@media screen and (min-width: 430px){
+/*SERVIÇOS*/
+#img-2{
+	margin-top: 0;
+}
+.inner > a, h4, p{
+	font-size: 0.85em;
+}
+}
+@media screen and (min-width: 520px){
+#img-2{
+	margin-top: -14px;
+}
+}
+/*SMARTPHONE*/
+@media screen and (min-width: 568px) {
+.logo{
+	position: relative;
+	width: 100px;
+	height: 75px;
+	float:left;
+	margin: 0;
+	top:0;
+	left:5%;
+	font-size:0 
+
+}
+.btn {
+	font-size: 2em;
+}
+.btn-menu{
+	margin-top: -2px;
+}
+/* SERVICOS */
+#img-2 {
+    width: 100%;
+    margin-top: -22px;
+}
+.inner > a, h4, p{
+	font-size: 0.9em;
+}
+.servicos img{
+	margin-top: 15.5%;
+}
+/*BIBLIOTECA*/
+.caixa-link{
+	margin: 0;
+}
+#imagem-link img{
+	float: right;
+	width: 45%;
+	left: 40px;
+	margin-top: 4%;
+	margin-right: 14.1px;
+	margin-left: 13px;
+}
+#imagem-link-2 img{
+	float: right;
+	width: 45%;
+	margin-top: 1%;
+	margin-right: 14.1px;
+	margin-left: 13px;
+}
+#imagem-link-3 img{
+	float: right;
+	width: 45%;
+	margin-top: 1%;
+	margin-right: 14.1px;
+	margin-left: 13px;
+}
+#imagem-link-4 img{
+	width: 45%;
+	margin-top: 1%;
+	margin-right: 9.1px;
+	margin-left: 15px;
+	margin-bottom: 60px;
+}
+}
+
+@media screen and (min-width: 667px) {
+.logo{
+	position: relative;
+	width: 100px;
+	height: 75px;
+	float:left;
+	margin: 0;
+	top:0;
+	left:5%;
+	font-size:0 
+
+}
+/*MENU*/
+.btn {
+	font-size: 2em;
+}
+.btn-menu{
+	margin-top: -3px;
+}
+/*SERVICOS*/
+.servicos img{
+	margin-top: 24.5%;
+}
+/*BIBLIOTECA*/
+.caixa-link{
+	margin: 0;
+}
+#imagem-link img{
+	float: left;
+	width: 38%;
+	margin-top: 1%;
+	margin-left: 53px; 
+}
+#imagem-link-2 img{
+	width: 38%;
+	float: left;
+	margin-left: 53px;
+}
+#imagem-link-3 img{
+	width: 38%;
+	float: left;
+	margin-top: 1%;
+	margin-left: 53px;
+}
+#imagem-link-4 img{
+	width: 38%;
+	margin-top: 1%;
+	margin-right: 11.1px;
+	margin-left: 53px;
+	margin-bottom: 60px;
+}
+/* PUBLICACOES */
+#caixa {
+	text-align: center;
+	clear: both;
+	border-style: double;
+	background: white;
+	width: 80%;
+	height: 100%;
+	padding: 4px;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 200px;
+	margin-bottom: 20%;
+	display: block;
+}
+}
+/*FIM SMARTPHONE*/
+
+/* TABLETS*/
+@media screen and (min-width: 768px) {
+.logo{
+	position: relative;
+	width: 100px;
+	height: 65px;
+	float:left;
+	margin: 0;
+	top:0;
+	left:5%;
+	font-size:0 
+}
+/*MENU*/
+.btn-menu{
+	margin-top: -4px;
+}
+/*SERVICOS*/
+.servico {
+	width: 29%; 
+	float: left;
+	margin-right: 2%;
+	margin-left: 2.32%;
+	}
+.servico #img-2{
+	margin-top: -5.9%;
+}
+.servico img{
+	width: 70%;
+	margin-top: 24%;
+}
+/*BIBLIOTECA*/
+#imagem-link img{
+	float: left;
+	width: 38%;
+	margin-top: 1%;
+	margin-left: 53px; 
+}
+#imagem-link-2 img{
+	width: 38%;
+	float: left;
+	margin-left: 53px;
+}
+#imagem-link-3 img{
+	width: 38%;
+	float: left;
+	margin-top: 1%;
+	margin-left: 53px;
+}
+#imagem-link-4 img{
+	width: 38%;
+	margin-top: 1%;
+	margin-right: 10.1px;
+	margin-left: 53px;
+	margin-bottom: 60px;
+}
+/* PUBLICACOES */
+#caixa {
+	text-align: center;
+	clear: both;
+	border-style: double;
+	background: white;
+	width: 80%;
+	height: 100%;
+	padding: 4px;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 200px;
+	margin-bottom: 20%;
+	display: block;
+}
+}
+/* FIM TABLETS*/
+/* DISPOSITIVOS MEDIUS*/
+@media screen and (min-width: 867px){
+.btn-menu{
+	margin-top: -5px;
+}
+.servico img{
+	width: 55%;
+	margin-top: 19%;
+}
+#img-2{
+	width: 80%;
+}
+}
+@media screen and (min-width: 900px){
+/*BIBLIOTECA*/
+#imagem-link img{
+	float: left;
+	width: 22%;
+	margin-top: 3%;
+	margin-left: 11px; 
+}
+#imagem-link-2 img{
+	width: 22%;
+	float: left;
+	margin-top: 3%;
+	margin-left: 13px;
+}
+#imagem-link-3 img{
+	width: 22%;
+	float: left;
+	margin-top: 2%;
+	margin-left: 11px;
+}
+#imagem-link-4 img{
+	width: 22%;
+	margin-top: 2%;
+	margin-right: 13.1px;
+	margin-left: 12px;
+	margin-bottom: 140px;
+}
+/* PUBLICACOES */
+#caixa {
+	text-align: center;
+	clear: both;
+	border-style: double;
+	background: white;
+	width: 80%;
+	height: 100%;
+	padding: 4px;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 200px;
+	margin-bottom: 20%;
+	display: block;
+}
+@media screen and (min-width: 960px){
+/*BIBLIOTECA*/
+#TitleBiblioteca{
+	font-size: 3em;
+}
+#imagem-link img{
+	float: left;
+	width: 22%;
+	margin-top: 3%;
+	margin-left: 12px; 
+}
+#imagem-link-2 img{
+	width: 22%;
+	float: left;
+	margin-top: 3%;
+	margin-left: 16px;
+}
+#imagem-link-3 img{
+	width: 22%;
+	float: left;
+	margin-top: 2%;
+	margin-left: 12px;
+}
+#imagem-link-4 img{
+	width: 22%;
+	margin-top: 2%;
+	margin-right: 11.1px;
+	margin-left: 16px;
+	margin-bottom: 140px;
+}
+/* PUBLICACOES */
+#caixa {
+	text-align: center;
+	clear: both;
+	border-style: double;
+	background: white;
+	width: 80%;
+	height: 100%;
+	padding: 4px;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 200px;
+	margin-bottom: 20%;
+	display: block;
+}
+@media screen and (min-width: 965px){
+.btn-menu{
+	margin-top: -6.3px;
+}
+
+}
+@media screen and (min-width: 1000px){
+/*BIBLIOTECA*/
+#TitleBiblioteca{
+	font-size: 3em;
+}
+#imagem-link img{
+	float: left;
+	width: 22%;
+	margin-top: 3%;
+	margin-left: 14px; 
+}
+#imagem-link-2 img{
+	width: 22%;
+	float: left;
+	margin-top: 3%;
+	margin-left: 16px;
+}
+#imagem-link-3 img{
+	width: 22%;
+	float: left;
+	margin-top: 2%;
+	margin-left: 14px;
+}
+#imagem-link-4 img{
+	width: 22%;
+	margin-top: 2%;
+	margin-right: 11.1px;
+	margin-left: 16px;
+	margin-bottom: 140px;
+}
+/* PUBLICACOES */
+#caixa {
+	text-align: center;
+	clear: both;
+	border-style: double;
+	background: white;
+	width: 80%;
+	height: 100%;
+	padding: 4px;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 200px;
+	margin-bottom: 20%;
+	display: block;
+}
+@media screen and (min-width: 1095px){
+.btn-menu{
+	margin-top: -7.2px;
+}
+
+}
+@media screen and (min-width: 1100px){
+	/*BIBLIOTECA*/
+#TitleBiblioteca{
+	font-size: 3em;
+}
+#imagem-link img{
+	float: left;
+	width: 22%;
+	margin-top: 3%;
+	margin-left: 17px; 
+}
+#imagem-link-2 img{
+	width: 22%;
+	float: left;
+	margin-top: 3%;
+	margin-left: 16px;
+}
+#imagem-link-3 img{
+	width: 22%;
+	float: left;
+	margin-top: 2%;
+	margin-left: 17px;
+}
+#imagem-link-4 img{
+	width: 22%;
+	margin-top: 2%;
+	margin-right: 11.1px;
+	margin-left: 16px;
+	margin-bottom: 140px;
+}
+/* PUBLICACOES */
+#caixa {
+	text-align: center;
+	clear: both;
+	border-style: double;
+	background: white;
+	width: 80%;
+	height: 100%;
+	padding: 4px;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 200px;
+	margin-bottom: 20%;
+	display: block;
+}
+@media screen and (min-width: 1185px){
+.btn-menu{
+	margin-top: -8.2px;
+}
+
+}
+@media screen and (min-width: 1200px){
+
+/*BIBLIOTECA*/
+#TitleBiblioteca{
+	font-size: 3em;
+}
+#imagem-link img{
+	float: left;
+	width: 22%;
+	margin-top: 3%;
+	margin-left: 25px; 
+}
+#imagem-link-2 img{
+	width: 22%;
+	float: left;
+	margin-top: 3%;
+	margin-left: 16px;
+}
+#imagem-link-3 img{
+	width: 22%;
+	float: left;
+	margin-top: 2%;
+	margin-left: 25px;
+}
+#imagem-link-4 img{
+	width: 22%;
+	margin-top: 2%;
+	margin-right: 11.1px;
+	margin-left: 16px;
+	margin-bottom: 140px;
+}
+/* PUBLICACOES */
+#caixa {
+	text-align: center;
+	clear: both;
+	border-style: double;
+	background: white;
+	width: 80%;
+	height: 100%;
+	padding: 4px;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 200px;
+	margin-bottom: 20%;
+	display: block;
+}
+
+}
+/* DISPOSITIVOS LARGOS*/
+@media screen and (min-width: 1280px) {
+.logo{
+	position: relative;
+	width: 100px;
+	height: 65px;
+	float:left;
+	margin: 0;
+	top:0;
+	left:3%;
+	font-size:0 
+
+}
+/* MENU */
+.btn-menu {
+	display: none;
+}
+.btn-close {
+	display: none;
+}
+.menu {
+	width: auto; 
+	height: 56px; 
+	line-height: 70px; 
+	float: right; 
+	background-color: #f5f5f5; 
+	display: block !important; 
+	position: static;
+}
+.menu li {
+	padding: 0; float: left;
+}
+.menu li a {
+	color:#130400; font-size: 1em; padding: 15px; 
+}
+.menu li a:hover {
+	border: none; color:white; 
+	background: green;
+	border-radius: 9px;
+	padding: 3px 15px;
+}
+.servico {
+	width: 29%; 
+	float: left;
+	margin-right: 2%;
+	margin-left: 2.32%;
+	}
+.servico #img-2{
+	width: 80%;
+	margin-top: 0.1%;
+}
+.servico img{
+	width: 55%;
+	margin-top: 24%;
+}
+/* BIBLIOTECA */
+#TitleBiblioteca{
+	font-size: 3em;
+}
+.caixa-link{
+	margin:0;
+} 
+
+#imagem-link img{
+	float: left;
+	width: 22%;
+	margin-top: 3%;
+	margin-left: 28px; 
+}
+#imagem-link-2 img{
+	width: 22%;
+	float: left;
+	margin-top: 3%;
+	margin-left: 16px;
+}
+#imagem-link-3 img{
+	width: 22%;
+	float: left;
+	margin-top: 2%;
+	margin-left: 28px;
+}
+#imagem-link-4 img{
+	width: 22%;
+	margin-top: 2%;
+	margin-right: 11.1px;
+	margin-left: 16px;
+	margin-bottom: 140px;
+}
+/* PUBLICACOES */
+#caixa {
+	text-align: center;
+	clear: both;
+	border-style: double;
+	background: white;
+	width: 80%;
+	height: 100%;
+	padding: 4px;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 200px;
+	margin-bottom: 20%;
+	display: block;
+}
+}
+
+/*FIM DISPOSITIVOS LARGOS*/
+

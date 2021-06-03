@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport"    content="width=device-width, initial-scale=1">
+	<title>Vitality</title>
+	<meta name="description"    content="Site de universitários para universitários">
+        <meta name="keywords"   content="saúde, livros, artigos">
+        <meta name="robots"     content="index, follow">
+        <meta name="author" content="Rodrigo Alves, Vinicius Cordeiro, Guilherme Marcel">
+        <link rel="stylesheet"  href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	    <div id="faixa-topo">
+            <h4>Faixa</h4>
+        </div>
+        <header class="cabecalho container">
+            <a href="index.html"><h1 class="logo">Vitality Site responsivo</h1></a>
+            <button class="btn-menu bg-gradient"><i class="fa fa-bars fa-lg"></i></button>
+            <nav class="menu">
+                <a class="btn-close"><i class="fa fa-times"></i></a>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="biblioteca.html">BIBLIOTECA</a></li>
+                    <li><a href="quemsomos.html">QUEM SOMOS</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <section>
+        
+        <div id="caixa">
+            <img src="img/turma.jpg">
+            <p> O site foi criado como instrumento de avaliação da disciplina projeto integrador 3 pelos alunos do quinto e sexto semestre de Fisioterapia da UniFTC. <br>Nosso objetivo é levar até o aluno materiais que servirão como base para a construção de seu conhecimento. Agradecemos pela sua visita no site, aproveite bastante e indique aos seus amigos!<br>Gratidão!</p>
+        </div>
+
+    </section>
+
+    <footer class="rodape container bg-gradient">
+          <div class="social-icons">
+            <a href="#"><i class="fa fa-envelope"></i></a>
+          </div>
+
+        <p id="email">suportevitality@gmail.com<br></p>
+          <p class="copyright">
+            Copyright © GRVSites  2019. Todos os direitos reservados.</p>
+       
+        </footer> 
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- JQUERY --> 
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>
+        $(".btn-menu").click(function(){
+          $(".menu").show();
+        });
+        $(".btn-close").click(function(){
+          $(".menu").hide();
+        });
+    </script>
+
+</body>
+</html>
